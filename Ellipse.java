@@ -1,4 +1,4 @@
-public class Ellipse extends  Shape {
+public class Ellipse extends Shape {
   private double majorAxis;
   private double minorAxis;
   

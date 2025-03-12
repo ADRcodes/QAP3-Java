@@ -1,4 +1,4 @@
-public class Circle extends Shape implements Scalable {
+public class Circle extends Shape {
   private double radius;
   
   public Circle(String name, double radius) {
