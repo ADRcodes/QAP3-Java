@@ -1,4 +1,4 @@
-abstract class Shape {
+abstract class Shape implements Scalable {
   String name;
   
   abstract double getArea();

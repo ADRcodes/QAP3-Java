@@ -38,4 +38,10 @@ public class Ellipse extends  Shape {
   public String toString() {
     return "Ellipse named " + super.toString() + " with major axis = " + majorAxis + " and minor axis = " + minorAxis;
   }
+
+  @Override
+  public void scale(double factor) {
+    this.majorAxis *= factor;
+    this.minorAxis *= factor;
+  }
 }

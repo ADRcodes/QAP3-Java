@@ -54,5 +54,12 @@ public class Triangle extends Shape {
   public String toString() {
     return "Triangle named " + super.toString() + " with sides = " + side1 + ", " + side2 + ", " + side3;
   }
+
+  @Override
+  public void scale(double factor) {
+    side1 *= factor;
+    side2 *= factor;
+    side3 *= factor;
+  }
   
 }

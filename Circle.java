@@ -1,4 +1,4 @@
-public class Circle extends Shape {
+public class Circle extends Shape implements Scalable {
   private double radius;
   
   public Circle(String name, double radius) {
@@ -27,5 +27,10 @@ public class Circle extends Shape {
   @Override
   public String toString() {
     return "Circle named " + super.toString() + " with radius = " + radius;
+  }
+
+  @Override
+  public void scale(double factor) {
+    this.radius *= factor;
   }
 }
